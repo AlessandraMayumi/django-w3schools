@@ -30,3 +30,9 @@ python manage.py shell
 >>> member.save()
 >>> Member.objects.all().values()
 ```
+
+Create User
+
+```sh
+python manage.py createsuperuser
+```
