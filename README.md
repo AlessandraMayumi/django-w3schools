@@ -36,3 +36,21 @@ Create User
 ```sh
 python manage.py createsuperuser
 ```
+
+Static Files (CSS)
+```html
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'myfirst.css' %}">
+<body>
+
+...
+
+</body>
+</html>
+```
+Shell
+```sh
+py manage.py collectstatic
+```
